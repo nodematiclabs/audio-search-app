@@ -1,0 +1,934 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: -301
+  verticalOffset: -23
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Straight ConnectorRWMpQ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 397
+      y: 351
+    targetPoint:
+      x: 397
+      y: 406
+    sourceID: MetaGtfxo
+    targetID: Vertex AIHeZUD
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Orthogonal ConnectorRisbl
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 62
+      y: 251
+    targetPoint:
+      x: 234.5
+      y: 163
+    sourceID: Cloud StorageTG8JM
+    targetID: Web ApplicationRQK8J
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Orthogonal ConnectorkDlQB
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 397
+      y: 251
+    targetPoint:
+      x: 234.5
+      y: 163
+    sourceID: MetaGtfxo
+    targetID: Web ApplicationRQK8J
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Orthogonal ConnectorkHoNu
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 68
+      y: 113
+    targetPoint:
+      x: 19
+      y: 159
+    sourceID: Web ApplicationRQK8J
+    targetID: Cloud RunKDk9e
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+  - id: Dashed Straight ConnectorDb3ha
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 62
+      y: 374
+    targetPoint:
+      x: 62
+      y: 351
+    sourceID: WikipediaeL8sr
+    targetID: Cloud StorageTG8JM
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Dashed Orthogonal Connectorbb46w
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: -88
+      y: 301
+    targetPoint:
+      x: -127.5
+      y: 395
+    sourceID: Cloud StorageTG8JM
+    targetID: MilvusVLxIk
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 14
+  - id: Dashed Orthogonal ConnectorwT9QT
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: -88
+      y: 301
+    targetPoint:
+      x: -267
+      y: 411
+    sourceID: Cloud StorageTG8JM
+    targetID: PineconeTn4s9
+    segments:
+      - type: Orthogonal
+        direction: Left
+        length: 152
+      - type: Orthogonal
+        length: 110
+        direction: Bottom
+      - type: Orthogonal
+    annotations:
+      - id: bmL7p
+        content: Embeddings
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+  - id: Orthogonal Connectorqv6bs
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: -317
+      y: 349
+    targetPoint:
+      x: -131
+      y: 209
+    sourceID: PineconeTn4s9
+    targetID: Cloud RunKDk9e
+    segments:
+      - type: Orthogonal
+        length: 104
+        direction: Top
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 16
+  - id: Orthogonal ConnectorV5lqT
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: -177.5
+      y: 333
+    targetPoint:
+      x: -131
+      y: 209
+    sourceID: MilvusVLxIk
+    targetID: Cloud RunKDk9e
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 17
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #0668E1;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png);"></div><div
+        class="c-text"><div class="c-title">ImageBind</div><div
+        class="c-short-description">Open source model (multimodal) for
+        embeddings (inc. audio and text)</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Meta</div></div></div></div></div>'
+    id: MetaGtfxo
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Meta
+        shortDescription: Open source model (multimodal) for embeddings (inc. audio and text)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Meta
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Meta
+      editableName: ImageBind
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Meta
+      category: 8
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta__044448_yehmnp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png
+      color: "#0668E1"
+      controlText: Meta
+      selectedDynamicsView: 0
+    width: 314
+    height: 100
+    offsetX: 397
+    offsetY: 301
+    zIndex: 0
+    outEdges:
+      - Straight ConnectorRWMpQ
+      - Orthogonal ConnectorkDlQB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI</div><div
+        class="c-short-description">Deploying, building, and managing machine
+        learning models</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Vertex AIHeZUD
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Deploying, building, and managing machine learning models
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Vertex AI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 397
+    offsetY: 456
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorRWMpQ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Storage</div><div
+        class="c-short-description">Storage of media assets (audio
+        files)</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud StorageTG8JM
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Storage
+        shortDescription: Storage of media assets (audio files)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Cloud Storage
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 62
+    offsetY: 301
+    zIndex: 3
+    inEdges:
+      - Dashed Straight ConnectorDb3ha
+    outEdges:
+      - Orthogonal ConnectorRisbl
+      - Dashed Orthogonal Connectorbb46w
+      - Dashed Orthogonal ConnectorwT9QT
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png);
+        border-radius: 50%"></div></div></div>'
+    id: PythonHa60w
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__044448_g32jqq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 443
+    offsetY: 113
+    zIndex: 5
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3d5c5c;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png);"></div><div
+        class="c-text"><div class="c-title">Audio Search App</div><div
+        class="c-short-description">Application for text-based search of an
+        audio library (not a metadata-based approach)</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Web Application</div></div></div></div></div>'
+    id: Web ApplicationRQK8J
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Web Application
+        shortDescription: Application for text-based search of an audio library (not a
+          metadata-based approach)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Web Application
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Web Application
+      editableName: Audio Search App
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Web Application
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_zbzaaw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png
+      color: "#3d5c5c"
+      controlText: Web Application
+      selectedDynamicsView: 0
+    width: 332.99999999999994
+    height: 100
+    offsetX: 234.5
+    offsetY: 113
+    zIndex: 4
+    inEdges:
+      - Orthogonal ConnectorRisbl
+      - Orthogonal ConnectorkDlQB
+    outEdges:
+      - Dashed Orthogonal ConnectorkHoNu
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Run</div><div
+        class="c-short-description">Running stateless containers in a fully
+        managed serverless environment</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud RunKDk9e
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Run
+        shortDescription: Running stateless containers in a fully managed serverless environment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Run
+      editableName: Cloud Run
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud Run
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run__044448_vfqzy2.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: -131
+    offsetY: 159
+    zIndex: 8
+    inEdges:
+      - Dashed Orthogonal ConnectorkHoNu
+      - Orthogonal Connectorqv6bs
+      - Orthogonal ConnectorV5lqT
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #343132; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_Black_87_b41juc.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_yhnumi.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Wikipedia</div></div><hr class="c-underrule"
+        style="background-color: #343132"></div>'
+    id: WikipediaeL8sr
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Wikipedia
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Wikipedia
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Wikipedia
+      editableName: Wikipedia
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Wikipedia
+      category: 8
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_yhnumi.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia__044448_wi1nxp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_Black_87_b41juc.png
+      color: "#343132"
+      controlText: Wikipedia
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 62
+    offsetY: 436
+    zIndex: 10
+    outEdges:
+      - Dashed Straight ConnectorDb3ha
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #201D1E; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681281786/sds_logos/Pinecone_Black_87_zevqo0.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681281786/sds_logos/Pinecone_lonyhi.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Pinecone</div></div><hr class="c-underrule"
+        style="background-color: #201D1E"></div>'
+    id: PineconeTn4s9
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Pinecone
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Pinecone
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Pinecone
+      editableName: Pinecone
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Pinecone
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681281786/sds_logos/Pinecone_lonyhi.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681281786/sds_logos/Pinecone__044448_btrgov.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681281786/sds_logos/Pinecone_Black_87_zevqo0.png
+      color: "#201D1E"
+      controlText: Pinecone
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: -317
+    offsetY: 411
+    zIndex: 12
+    inEdges:
+      - Dashed Orthogonal ConnectorwT9QT
+    outEdges:
+      - Orthogonal Connectorqv6bs
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #167CAB; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_Black_87_qau7vr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_aj1ff4.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Milvus</div></div><hr class="c-underrule"
+        style="background-color: #167CAB"></div>'
+    id: MilvusVLxIk
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Milvus
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Milvus
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Milvus
+      editableName: Milvus
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Milvus
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_aj1ff4.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus__044448_uskbdg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_Black_87_qau7vr.png
+      color: "#167CAB"
+      controlText: Milvus
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: -177.5
+    offsetY: 395
+    zIndex: 13
+    inEdges:
+      - Dashed Orthogonal Connectorbb46w
+    outEdges:
+      - Orthogonal ConnectorV5lqT
+selectedItems:
+  width: 0
+  height: 0
